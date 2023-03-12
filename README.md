@@ -1,0 +1,1 @@
+K8s manifest for myportfolio dockerized app using eksctl
