@@ -1,7 +1,7 @@
 ## K8s manifest for myportfolio dockerized app using eksctl
 use this command to create cluster
 ```
-eksctl create cluster -n cluster-1 --nodegroup-name ng-1 --region us-east-1 --node-type t2.micro --nodes 2
+eksctl create cluster --name cluster-1 --nodegroup-name ng-1 --region us-east-1 --node-type t2.micro --nodes 2
 ```
 You can verify that the cluster is running by using:
 ```
